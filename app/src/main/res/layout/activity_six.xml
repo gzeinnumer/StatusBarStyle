@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Style 3 : ThirdActivity"
+            android:text="Style 6 : SixActivity"
             android:textAlignment="center"
             android:textColor="@android:color/white" />
 

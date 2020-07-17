@@ -9,20 +9,19 @@ import android.view.WindowManager
 import androidx.core.content.res.ResourcesCompat
 import kotlinx.android.synthetic.main.activity_main.*
 
-class FiveActivity : AppCompatActivity() {
-
+class SixActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_five)
+        setContentView(R.layout.activity_six)
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            window.addFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS)
+            window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
             window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION)
-            window.statusBarColor = ResourcesCompat.getColor(resources, android.R.color.transparent, null)
+            window.statusBarColor = ResourcesCompat.getColor(resources, android.R.color.transparent, null);
         }
 
         btn.setOnClickListener {
-            startActivity(Intent(applicationContext, SixActivity::class.java))
+            startActivity(Intent(applicationContext, MainActivity::class.java))
         }
     }
 }
