@@ -4,9 +4,7 @@
 |--|--|--|
 |tes|tes|test|
 
-|![](https://raw.githubusercontent.com/gzeinnumer/StatusBarStyle/master/image/Screenshot_20200503_212416.jpg)
-|![](https://raw.githubusercontent.com/gzeinnumer/StatusBarStyle/master/image/Screenshot_20200503_212421.jpg)
-|![](https://raw.githubusercontent.com/gzeinnumer/StatusBarStyle/master/image/Screenshot_20200503_212421_2.jpg)|
+|![](https://raw.githubusercontent.com/gzeinnumer/StatusBarStyle/master/image/Screenshot_20200503_212416.jpg)|![](https://raw.githubusercontent.com/gzeinnumer/StatusBarStyle/master/image/Screenshot_20200503_212421.jpg)|![](https://raw.githubusercontent.com/gzeinnumer/StatusBarStyle/master/image/Screenshot_20200503_212421_2.jpg)|
 |--|--|--|
 |test|test|test|
 
